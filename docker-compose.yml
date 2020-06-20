@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+
+  journey_flow:
+    build:
+      context: .
+    container_name: journey_flow
+    environment:
+      - BROKER_HOST=192.168.0.14
+      - BROKER_PORT=5672
+      - STORAGE_CRUD_HOST=192.168.0.14
+      - STORAGE_CRUD_PORT=27017
+      - IN_MEMORY_STATE_HOST=192.168.0.14
+      - IN_MEMORY_STATE_PORT=6379
+    restart: always

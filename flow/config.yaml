@@ -1,0 +1,2 @@
+AMQP_URI: amqp://${BROKER_USER:guest}:${BROKER_PASSWORD:guest}@${BROKER_HOST:localhost}:${BROKER_PORT:5672}
+rpc_exchange: smart_journey-rpc

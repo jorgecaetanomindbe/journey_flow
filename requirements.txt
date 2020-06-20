@@ -1,0 +1,4 @@
+nameko==3.0.0rc8
+pymongo==3.10.1
+pytz==2020.1
+redis==3.3.11
